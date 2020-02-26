@@ -1,0 +1,52 @@
+.titleTimer {
+  text-align: center;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #898f9f;
+  font-size: 13px;
+}
+
+.timer {
+  width: 300px;
+  margin: 0 auto;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 5.196px 6px -2px rgba(9, 30, 63, 0.15);
+}
+
+.field {
+  text-align: center;
+  width: 120px;
+}
+
+.value {
+  font-size: 30px;
+  display: block;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.label {
+  color: gray;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #898f9f;
+  font-size: 9px;
+}
+
+.formWrap {
+  background-color: hotpink;
+}
+
+@media (min-width: 768px) {
+  .timer {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
